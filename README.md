@@ -1,0 +1,1 @@
+# FortiGate-Log-Search-Filter-auto-clear
