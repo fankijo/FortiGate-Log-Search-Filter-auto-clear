@@ -3,7 +3,7 @@
 // @description  automatically clears Log Search Filter on the FortiGates Webinterface
 // @author       Johannes Fankhauser
 // @version      2025-08-20
-// @downloadURL
+// @downloadURL  https://raw.githubusercontent.com/fankijo/FortiGate-Log-Search-Filter-auto-clear/refs/heads/main/script.js
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
