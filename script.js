@@ -14,7 +14,7 @@ const host = window.location.hostname;
 const title = document.title;
 
 
-if (title.includes('FortiGate') && (host.startsWith('fw-') || host.includes('-fw'))) {
+if (title.includes('FortiGate')) {
 
     (function() {
         'use strict';
