@@ -5,9 +5,10 @@
 // @version      2025-08-20
 // @updateURL    https://raw.githubusercontent.com/fankijo/FortiGate-Log-Search-Filter-auto-clear/refs/heads/main/script.js
 // @downloadURL  https://raw.githubusercontent.com/fankijo/FortiGate-Log-Search-Filter-auto-clear/refs/heads/main/script.js
-// @match        *://*/*
 // @grant        none
 // ==/UserScript==
+
+//URL Matching has to be done in the Tampermonkey Script Settings because these Settings can work with Regex ant the @match cant.
 
 const host = window.location.hostname;
 const title = document.title;
