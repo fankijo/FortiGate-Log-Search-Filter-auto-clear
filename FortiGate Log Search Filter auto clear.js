@@ -1,15 +1,18 @@
 // ==UserScript==
 // @name         FortiGate Log Search Filter auto clear
-// @version      2025-08-19
-// @description  leert automatisch die Log Search Filter
+// @description  automatically clears Log Search Filter on the FortiGates Webinterface
 // @author       Johannes Fankhauser
+// @version      2025-08-20
+// @downloadURL
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
 
 const host = window.location.hostname;
+const title = document.title;
 
-if (host.startsWith('fw-') || host.includes('-fw')) {
+
+if (title.includes('FortiGate') && (host.startsWith('fw-') || host.includes('-fw'))) {
 
     (function() {
         'use strict';
@@ -46,9 +49,9 @@ if (host.startsWith('fw-') || host.includes('-fw')) {
         }
 
 
-
+        //Event Listener for URL Changes
         let lastPath = getPath(location.href);
-        clearLogFilter(); // Initialer Aufruf
+        clearLogFilter(); //Initial Call
 
         new MutationObserver(() => {
             const currentPath = getPath(location.href);
@@ -59,7 +62,6 @@ if (host.startsWith('fw-') || host.includes('-fw')) {
         }).observe(document, {subtree: true, childList: true});
 
 
-        //Event Listener for URL Changes
         window.addEventListener('popstate', () => {
             const currentPath = getPath(location.href);
             if (currentPath !== lastPath) {
