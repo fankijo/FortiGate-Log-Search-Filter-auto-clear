@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name         Proxmox Block No Subscription Popup
-// @version      2025-09-15
 // @description  Suppresses the "No valid subscription" Dialog in Proxmox VE.
 // @author       fankijo
+// @version      2025-09-15
+// @updateURL    https://raw.githubusercontent.com/fankijo/Tampermonkey-Scripts/refs/heads/main/Proxmox-Block-No-Subscription-Popup.js
+// @downloadURL  https://raw.githubusercontent.com/fankijo/Tampermonkey-Scripts/refs/heads/main/Proxmox-Block-No-Subscription-Popup.js
 // @grant        none
 // ==/UserScript==
 
