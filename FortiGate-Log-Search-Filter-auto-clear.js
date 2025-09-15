@@ -2,9 +2,9 @@
 // @name         FortiGate Log Search Filter auto clear
 // @description  automatically clears Log Search Filter on the FortiGates Webinterface
 // @author       fankijo
-// @version      2025-08-20
-// @updateURL    https://raw.githubusercontent.com/fankijo/FortiGate-Log-Search-Filter-auto-clear/refs/heads/main/script.js
-// @downloadURL  https://raw.githubusercontent.com/fankijo/FortiGate-Log-Search-Filter-auto-clear/refs/heads/main/script.js
+// @version      2025-09-15
+// @updateURL    https://raw.githubusercontent.com/fankijo/Tampermonkey-Scripts/refs/heads/main/FortiGate-Log-Search-Filter-auto-clear.js
+// @downloadURL  https://raw.githubusercontent.com/fankijo/Tampermonkey-Scripts/refs/heads/main/FortiGate-Log-Search-Filter-auto-clear.js
 // @grant        none
 // ==/UserScript==
 
