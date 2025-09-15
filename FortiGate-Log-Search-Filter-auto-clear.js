@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-//URL Matching has to be done in the Tampermonkey Script Settings because these Settings can work with Regex ant the @match cant.
+//URL Matching has to be done in the Tampermonkey Script Settings because these Settings can work with Regex and the @match cant.
 
 const host = window.location.hostname;
 const title = document.title;
