@@ -9,3 +9,8 @@ URL Matching is done inside the script itself. Depending on your Environment thi
 ```js
 if (title.includes('FortiGate') && (host.startsWith('fw-') || host.includes('-fw')))
 ```
+
+
+# Proxmox Block No Subscription Popup
+
+Tampermonkey Script to block the "No valid Subscription" Popup in the Proxmox VE Webinterface.
